@@ -1,11 +1,13 @@
 Every folder corresponds to one task
--factorial-full -> The dataset consists of factorial program
--factorial-loop -> dataset consists of only the loop of the factorial program
--arithmetic-full -> dataset consists of arithmetic operations performed repeatedly
+- factorial-full -> The dataset consists of factorial program
+- factorial-loop -> dataset consists of only the loop of the factorial program
+- arithmetic-full -> dataset consists of arithmetic operations performed repeatedly
 
 To generate data:
+
 `
 cd $task-directory
+
 sh init.sh
 `
 
