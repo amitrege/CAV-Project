@@ -3,13 +3,7 @@ Every folder corresponds to one task
 - factorial-loop -> dataset consists of only the loop of the factorial program
 - arithmetic-full -> dataset consists of arithmetic operations performed repeatedly
 
-To generate data:
-
-`
-cd $task-directory
-
-sh init.sh
-`
+To generate data: Do `cd $task-directory` followed by `sh init.sh` 
 
 Data will be generated in 2 files: data.npy (for features), labels.mpy (for labels)
 
